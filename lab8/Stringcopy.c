@@ -20,7 +20,7 @@ int main()
 		str2[j]=str1[i];
 		i++;
 		j++; 
-	}
+	}}str2[j]='\0';
 	printf("Original string is %s\n",str1);
 	printf("Copied string is %s\n",str2);
 	printf("Length of the string is %d\n",len(str1));
